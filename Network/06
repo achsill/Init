@@ -1,0 +1,3 @@
+cat /etc/resolv.conf
+
+les name server correspondent au DNS qui sont affiche dans le system preferences
