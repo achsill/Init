@@ -1,0 +1,9 @@
+Grace a la commande crontab -e (a lancer en sudo), on peut ajouter des taches qui pourront s'executer tous les jours
+
+Il faudra ajouter une ligne comme:
+
+***** mon_script.sh
+
+Les etoies represente les minutes/heures/jour_du_mois/mois/jour_de_la_semaine.
+
+Si une etoile n'est pas modifie ca voudra dire que le script sera run "tous les..." si on laisse la deuxieme etoile par exemple ca voudra dire "tous les heures"
