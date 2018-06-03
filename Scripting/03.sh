@@ -1,1 +1,1 @@
-ls -lS $1
+cd "$@" && ls -pS | grep -v /

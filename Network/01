@@ -1,1 +1,1 @@
-ifconfig -a | grep UP | cut -d : -f1
+ifconfig -a | grep 'mtu' | cut -d : -f1

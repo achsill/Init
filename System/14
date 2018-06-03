@@ -1,1 +1,1 @@
-sudo tail -f /var/log/syslog > toto.txt &
+sudo tail -f /var/log/syslog &

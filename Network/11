@@ -1,1 +1,3 @@
-a9k2-45x-s44-2.dc3.poneytelecom.eu (195.154.1.106) est la premiere ip externe.
+La commande traceroute permet de suivre l'itinieraire d'envoi d'un paquet entre la machineet le serveur
+
+pour slash16.org le premier reseau rencontre est donc nat-1 avec l'ip 10.60.1.11
