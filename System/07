@@ -1,1 +1,1 @@
-pidof sshd
+ps axjf | grep /usr/sbin/sshd | tail -1 | awk '{print $2}'

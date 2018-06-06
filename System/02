@@ -1,1 +1,1 @@
-hostname <new_name>
+sudo -s hostname newname
