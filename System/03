@@ -5,5 +5,3 @@ d'abord le fichier hostname ("/etc/hostname")
 ensuite dans le fichier hosts ("/etc/host")  il reste des references
 a notre ancien hostname, il faut les remplacer par le nouvel hostname
 
-Puis on restart le fichier hostname.sh ("/etc/init.d/hostname.sh") pour 
-que les modification soit prisent en compte.
