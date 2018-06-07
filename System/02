@@ -1,1 +1,1 @@
-sudo -s hostname newname
+sudo hostname newname

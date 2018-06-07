@@ -1,1 +1,2 @@
-ps axjf | grep /usr/sbin/sshd | tail -1 | awk '{print $2}'
+cat /var/run/sshd.pid
+
