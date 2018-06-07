@@ -1,0 +1,9 @@
+#!/bin/bash
+# 0 0 * * * sh /home/vagrant/script.sh
+
+command=`find /var/spool/cron/crontabs/root -mtime -1 -ls`
+
+if [ "$command" != "" ]
+then
+	echo "Subject: crontab file modified" | sudo sendmail -v hamzalouar@gmail.com
+fi
